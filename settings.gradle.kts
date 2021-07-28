@@ -1,7 +1,7 @@
 pluginManagement {
     val kotlinVersion = "1.5.21"
     val kspVersion = "1.5.21-1.0.0-beta05"
-    val agpVersion = "1.5.21"
+    val agpVersion = "7.1.0-alpha03"
     plugins {
         id("com.google.devtools.ksp") version kspVersion apply false
         kotlin("jvm") version kotlinVersion apply false
